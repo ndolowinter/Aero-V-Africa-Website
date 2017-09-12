@@ -1,0 +1,38 @@
+/* Footer */
+
+	#footer {
+		padding: 1rem 0 1rem 0 ;
+		background-color: black;
+		text-align: center;
+    bottom: 0%;
+    position: relative;
+  }
+
+		#footer a {
+			color: rgba(255, 255, 255, 0.5);
+		}
+
+			#footer a:hover {
+				color: #FFF;
+			}
+
+		#footer .copyright {
+			color: #bbb;
+			font-size: 1rem;
+			margin: 0 0 2rem 0;
+			padding: 0;
+			text-align: center;
+		}
+    .icons li {
+    display: inline-block;
+    padding: 5px;
+    margin-right: auto;
+}
+/*media queries*/
+		@media screen and (max-width: 736px) {
+
+			#footer {
+				padding: 3rem 0 1rem 0 ;
+			}
+
+		}
